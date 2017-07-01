@@ -17,10 +17,12 @@
 			<br>
 			<h:form>
 				<h:panelGrid styleClass="list_table" rowClasses="row1,row2">
+				
 					<h:commandLink value="Disciplina" action="listDisciplina"/>
 					<h:commandLink value="Pessoa" action="listPessoa"/>
 					<h:commandLink value="Aluno" action="listAluno"/>
 					<h:commandLink value="Curso" action="listCurso"/>
+					
 				</h:panelGrid>
 			</h:form>
 		</body>
